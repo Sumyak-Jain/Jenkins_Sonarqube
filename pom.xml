@@ -9,6 +9,13 @@
   <maven.compiler.source>1.6</maven.compiler.source>
   <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
+    -<distributionManagement>
+-<snapshotRepository>
+<id>jenkins</id>
+<name>jenkins</name>
+<url>http://localhost:8081/repository/jenkins/</url>
+</snapshotRepository>
+</distributionManagement>
   <dependencies>
 <dependency>
     <groupId>org.sonarsource.scanner.maven</groupId>
